@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(/images/pattern-background-desktop.svg) repeat-x;
+    background-color: hsl(227, 79%, 94%);
+}
+
+.container {
+    height: 500px;
+    width: 300px;
+    background: white;
+}
+
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+}
