@@ -130,4 +130,7 @@ footer {
         max-width: 95%;
         margin-top: 5%;
     }
+    .canc-order a{
+        padding-top: 28px;
+    }
 }
