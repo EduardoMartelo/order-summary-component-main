@@ -10,6 +10,28 @@ body {
     background-color: hsl(227, 79%, 94%);
 }
 
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(245, 75%, 52%);
+}
+
+a:hover {
+    color: hsl(224, 23%, 55%)
+}
+
+.paragrafo {
+    font-size: 15px;
+    line-height: 22px;
+    color: hsl(224, 23%, 55%);
+}
 .container {
     height: 630px;
     width: 410px;
@@ -23,6 +45,49 @@ body {
     width: 100%;
 }
 
+
+.container-texto {
+    padding: 10px 55px;
+    text-align: center;
+}
+
+.plano {
+    background: hsl(225, 100%, 98%);
+    margin: 40px;
+    height: 85px;
+    border-radius: 15px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-plan {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 27px;
+    color: hsl(223, 47%, 23%);  
+}
+
+.icone {
+    display: flex;
+    padding: 20px;
+}
+
+.valor {
+    padding-left: 20px;
+}
+
+.botao {
+    background: hsl(245, 75%, 52%);
+    margin: 40px;
+    height: 85px;
+    border-radius: 15px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 .attribution { 
