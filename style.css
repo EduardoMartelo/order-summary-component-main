@@ -7,30 +7,30 @@ body {
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
     background: url(/images/pattern-background-desktop.svg) repeat-x;
-    background-color: hsl(227, 79%, 94%);
+    background-color: #e4e9fc;
 }
 
 h1 {
     font-size: 25px;
     font-weight: bold;
-    color: hsl(223, 47%, 23%);
+    color: #1f2f56;
 }
 
 a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
-    color: hsl(245, 75%, 52%);
+    color: #3829e0;
 }
 
 a:hover {
-    color: hsl(224, 23%, 55%)
+    color: #7280a7
 }
 
 .paragrafo {
     font-size: 15px;
     line-height: 22px;
-    color: hsl(224, 23%, 55%);
+    color: #7280a7;
 }
 .container {
     height: 630px;
@@ -38,7 +38,7 @@ a:hover {
     background: white;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 2px 50px hsl(224, 23%, 55%)
+    box-shadow: 0 15px 50px #7280a7;
 }
 
 .topo {
@@ -52,11 +52,12 @@ a:hover {
 }
 
 .plano {
-    background: hsl(225, 100%, 98%);
+    background: #f5f7ff;
     margin: 40px;
     height: 85px;
     border-radius: 15px;
-    padding: 0 15px;
+    padding: 0 23px;
+    margin:  15px 40px 30px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,36 +67,44 @@ a:hover {
     font-size: 15px;
     font-weight: bold;
     line-height: 27px;
-    color: hsl(223, 47%, 23%);  
+    color: #1f2f56;  
 }
 
 .icone {
     display: flex;
-    padding: 20px;
 }
 
 .valor {
     padding-left: 20px;
 }
 
-.botao {
-    background: hsl(245, 75%, 52%);
-    margin: 40px;
-    height: 85px;
-    border-radius: 15px;
-    padding: 0 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+button {
+    background: #3829e0;
+    margin: 0 40px;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 15px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0 15px 50px 0 #7280a7;
+}
+
+button:hover {
+    background-color: #7e74e6;
+    box-shadow: 0 15px 50px 0 #7e74e6;
+    cursor: pointer;
 }
 
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    font-size: 11px; 
+    color: #3e52a3; 
 }
 
 footer {
